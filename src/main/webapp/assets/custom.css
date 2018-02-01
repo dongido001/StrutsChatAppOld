@@ -1,0 +1,46 @@
+body {
+  padding-top: 50px;
+}
+
+#queryText {
+  position : relative;
+  bottom : 4%;
+  padding: 0.3%;
+  background : grey;
+  min-width : 200px;
+}
+
+#queryText  input {
+  width : 100%;
+}
+
+
+#queryText form div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#queryText {
+  border : 0px solid black;
+  padding: 10px;
+}
+
+#chat-item {
+  border-bottom : 1px solid grey;
+}
+
+#msgItems div img {
+  background : blue;
+  display : inline;
+}
+
+#msgItems {
+   height: 400px;
+   overflow: scroll;
+}
+.hideForm, .initiateChat {
+  display: none;
+}
+.input-large {
+ padding: 5px 150px;
+}
